@@ -1,0 +1,200 @@
+<!DOCTYPE html><!--22061021_김유진-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      a:link{
+        color: #ffff;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #ffff;
+        opacity: 50%;
+      }
+      .topnav{
+        overflow: hidden;
+        font-size: 17px;
+      }
+      body{
+        font-family: AppleSDGothicNeo;
+        padding: 15px;
+
+        background-image: url('./img/bgf2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .leftcolumn{
+        float: left;
+        width: 40%;
+        color: #ffff;
+      }
+      .rightcolumn{
+        float: left;
+        width: 60%;
+        padding-left: 20px;
+        color: #ffff;
+      }
+      .card{
+        padding: 20px;
+        margin-top: 40px;
+      }
+      .fakeimg1{
+        width: 100%;
+      }
+      .fakeimg2{
+        width: 100%;
+      }
+      .fakeimg3{
+        background-color: #ffffff;
+        width: 100%;
+        padding: 20px;
+      }
+      .fakeimg4{
+        background-color: #ffcfcf;
+        width: 100%;
+        padding: 20px;
+      }
+      .footer{
+        padding: 20px;
+        margin-top: 80px;
+        color: #ffff;
+        font-size: 17px;
+      }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+
+      .container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="about.html">About</a>
+      <a href="planning.html">Planning</a>
+      <a href="design.html">Design</a>
+      <a href="#">Programming/3D</a>
+      <a href="index.html" style="float:right">********</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Programming Project One</h2>
+          <h5>Date, Dec 16, 2020</h5>
+          <div class="container">
+            <img src="img/pr1.png" class="image">
+            <div class="overlay">
+              <div class="image"><img src="img/pr2.png" class="image"></div>
+            </div>
+          </div>
+          <p>Netflix Original X Contents Programming</p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="card">
+          <h2>3D Project Two</h2>
+          <h5>Date, Dec 18, 2020</h5>
+          <div class="container">
+            <img src="img/pr3.png" class="image">
+            <div class="overlay">
+              <div class="image"><img src="img/pr4.png" class="image"></div>
+            </div>
+          </div>
+          <p>Toonivers Channel ID X 3D</p>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card">
+          <h2><br></h2>
+          <h5><br></h5>
+          <h3>Netflix Original X Contents Programming</h3>
+          <div class="fakeimg1" style="height:300px;">
+            <br><p>오우 콘텐츠 프로그래밍 수업으로, 처음으로 웹사이트를 코딩해본 수업의 결과물입니다. 사실 완벽히 이해하고 제작한 것이 아니라
+            <br><br>뜯어보면 굉장히 어설픈 부분들이 많습니다. 그럼에도 최대한 교수님께서 알려주신 코드를 응용하려고 도전했던 일이 매우 뿌듯했으며
+            <br><br><br><br>실제로 반 친구들이 중간평가 1위로 뽑아주어 매우 기뻤던 순간으로 기억하고 있습니다. 이유는 모르겠지만 코딩을 할 때면
+            <br><br>머릿속이 맑아지는 기분을 느끼곤 하는데요, 디자인과 같은 창작행위이지만 더 체계적으로 짜고 계획할 수 있는 점들이 제겐 매력적이었나
+            <br><br>봅니다. 보통 선생님을 좋아하면 그 과목 성적도 좋다고 하잖아요? 저는 코딩 교수님이 참 좋고 그래서 결과물도 더 공을 들이게 된 것 같습니다.</p></div>
+            <p>/</p>
+        </div>
+        <div class="card">
+          <h2>Project Color</h2>
+          <div class="fakeimg3"></div>
+          <h5>Date, Dec 16, 2020, #ffffff</h5>
+        </div>
+
+        <div class="card">
+          <h2><br></h2>
+          <h5><br></h5>
+          <h3>Toonivers Channel ID X 3D</h3>
+          <div class="fakeimg1" style="height:300px;">
+            <br><p>이번 기말평가로 진행한 작업물로, 투니버스 채널 아이디영상을 제작한 것입니다. 사실 모델링에 두려움이 많았고 툴도 너무 어려웠는데
+            <br><br>함께 작업한 조원들 덕분에 정말 만족스러운 결과물이 나온 프로젝트 였습니다. 20초분량의 영상 2개를 시리즈로 제작하여 진행했고
+            <br><br><br><br>첫번째 시리즈의 스토리는 투니버스 플레닛에서 캐릭터들이 신나게 놀다 실수로 폭발물을 건드려 플래닛이 폭발한다는 스토리로
+            <br><br>재미가 폭발한다는 의미와 일맥상통하도록 기획한 것입니다. 또한 두번째 스토리는 비쥬얼적인 부분에 치장하여 놀이공원에서 캐릭터들이
+            <br><br>즐겁게 놀다, 떨어지는 장면을 연출하며 마무리되도록 하였습니다. 정말 지금도 뿌듯하고 재밌는 결과물로 제게 남아있습니다.</p></div>
+          <p>/</p>
+        </div>
+        <div class="card">
+          <h2>Project Color</h2>
+          <div class="fakeimg4"></div>
+          <h5>Date, Dec 18, 2020, #ffcfcf</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; EugeneKim
+    </div>
+  </body>
+</html>

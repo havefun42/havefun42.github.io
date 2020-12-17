@@ -1,0 +1,200 @@
+<!DOCTYPE html><!--22061021_김유진-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      a:link{
+        color: #ffff;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #ffff;
+        opacity: 50%;
+      }
+      .topnav{
+        overflow: hidden;
+        font-size: 17px;
+      }
+      body{
+        font-family: AppleSDGothicNeo;
+        padding: 15px;
+
+        background-image: url('./img/bgf2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .leftcolumn{
+        float: left;
+        width: 40%;
+        color: #ffff;
+      }
+      .rightcolumn{
+        float: left;
+        width: 60%;
+        padding-left: 20px;
+        color: #ffff;
+      }
+      .card{
+        padding: 20px;
+        margin-top: 40px;
+      }
+      .fakeimg1{
+        width: 100%;
+      }
+      .fakeimg2{
+        width: 100%;
+      }
+      .fakeimg3{
+        background-color: #f9304c;
+        width: 100%;
+        padding: 20px;
+      }
+      .fakeimg4{
+        background-color: #337352;
+        width: 100%;
+        padding: 20px;
+      }
+      .footer{
+        padding: 20px;
+        margin-top: 80px;
+        color: #ffff;
+        font-size: 17px;
+      }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+
+      .container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="about.html">About</a>
+      <a href="#">Planning</a>
+      <a href="design.html">Design</a>
+      <a href="programming.html">Programming/3D</a>
+      <a href="index.html" style="float:right">********</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Planning Project One</h2>
+          <h5>Date, Dec 10, 2020</h5>
+          <div class="container">
+            <img src="img/p1.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="image"><img src="img/p2.png" alt="Avatar" class="image"></div>
+            </div>
+          </div>
+          <p>Lotte X Confectionary Digital Media Design</p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="card">
+          <h2>Planning Project Two</h2>
+          <h5>Date, Sep 16, 2020</h5>
+          <div class="container">
+            <img src="img/p3.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="image"><img src="img/p4.png" alt="Avatar" class="image"></div>
+            </div>
+          </div>
+          <p>Krispy Kreme Dounuts X Wed Service</p>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card">
+          <h2><br></h2>
+          <h5><br></h5>
+          <h3>Lotte X Confectionary Digital Media Design</h3>
+          <div class="fakeimg1" style="height:300px;">
+            <br><p>기획 프로젝트 중 가장 최근에 작업했던 기획 프로젝트로 가장 기억에 남는 기획 프로젝트라 할 수 있겠습니다.
+            <br><br>롯데제과 웹서비스는 대기업 계열사임에도 불구하고 매운 낮은 수준의 웹사용성을 가지고 있었습니다.
+            <br><br><br><br>따라서 미시환경분석을 통해 롯데제과의 내부와 외부 모두 리서치하여 전략을 도출하기 위한 기반을 닦았으며,웹서비스를 기준으로
+            <br><br>한 벤치마킹을 진행하여 구체적인 홋데제과 웹서비스의 문제점을 짚고 우수사례의 장점들을 취합하여 한발짝 더 나아가려 했습니다.
+            <br><br>이 모든 것들을 토대로 롯데제과 웹서비스의 화면설계를 진행하여 사용자들이 느끼기에 편하고 유용하며 기억에 남는 웹서비스로 탈바꿈 시켰습니다.</p></div>
+            <p>/</p>
+        </div>
+        <div class="card">
+          <h2>Project Color</h2>
+          <div class="fakeimg3"></div>
+          <h5>Date, Dec 10, 2020, #f9304c</h5>
+        </div>
+
+        <div class="card">
+          <h2><br></h2>
+          <h5><br></h5>
+          <h3>Krispy Kreme Dounuts X Wed Service</h3>
+          <div class="fakeimg1" style="height:300px;">
+            <br><p>2학기 중간평가에서 진행한 크리스피크림 웹개선 프로젝트입니다. 코로나로 인해 매장 섭취가 금지된 시점, 많은 간식 브랜드들은
+            <br><br>위기를 직면하게 되었는데요, 크리스피크림도 마찬가지였습니다. 매장 취식을 주로 운영하던 크리스피크림은 더 큰 타격을 입었습니다.
+            <br><br><br><br>이런 상황을 타파하고자 크리스피크립이 기존에 가지고 있던 온라인 서비스를 극대화하는 방향으로 기획하여 웹개선을 실시하였습니다.
+            <br><br>여러 분석방법들을 동원하여 도출한 결과, 확실히 기존 콘텐츠는 많으나 노출에 있어 매우 소극적인 이유로 사용자들이 서비스를 인지하지 못하고
+            <br><br>있는 경향이 강했습니다. 따라서 온라인 서비스를 극대화하는 방향으로 개선하여 기존 컨텐츠를 극대화하는 방향으로 완성시켰습니다.</p></div>
+          <p>/</p>
+        </div>
+        <div class="card">
+          <h2>Project Color</h2>
+          <div class="fakeimg4"></div>
+          <h5>Date, Sep 16, 2020, #337352</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; EugeneKim
+    </div>
+  </body>
+</html>

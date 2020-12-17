@@ -1,0 +1,142 @@
+<!DOCTYPE html><!--22061021_김유진-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      a:link{
+        color: #ffff;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #ffff;
+        opacity: 50%;
+      }
+      .topnav{
+        overflow: hidden;
+        font-size: 17px;
+      }
+      body{
+        font-family: AppleSDGothicNeo;
+        padding: 15px;
+
+        background-image: url('./img/bgf2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .leftcolumn{
+        float: left;
+        width: 40%;
+        color: #ffff;
+      }
+      .rightcolumn{
+        float: left;
+        width: 60%;
+        padding-left: 20px;
+        color: #ffff;
+      }
+      .card{
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .fakeimg1{
+        width: 100%;
+      }
+      .fakeimg2{
+        width: 100%;
+      }
+      .fakeimg3{
+        background-color: #f9304c;
+        width: 100%;
+        padding: 20px;
+      }
+      .footer{
+        padding: 20px;
+        margin-top: 80px;
+        color: #ffff;
+        font-size: 17px;
+      }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="#">About</a>
+      <a href="planning.html">Planning</a>
+      <a href="design.html">Design</a>
+      <a href="programming.html">Programming/3D</a>
+      <a href="index.html" style="float:right">********</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Who Am I</h2>
+          <h5>Date, Nov 27, 2000</h5>
+          <div class="fakeimg1"  style="height:300px;"><img src="img/ame.png"></div>
+          <p>Welcome to eugene world. Mysterious, curious</p>
+        </div>
+
+        <div class="card">
+
+          <h5>/</h5>
+          <h2>Gradation Angry</h2>
+          <div class="fakeimg2"><img src="img/skill.png"></div>
+          <h4>Don't touch me when I was happy.</h4>
+        </div>
+
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card">
+          <h2><br></h2>
+          <h5><br></h5>
+          <h3>Someone who tried hard to get power in my words.</h3>
+          <div class="fakeimg1" style="height:300px;">
+            <br><p>안녕하세요 저는 김유진입니다. 한자는 아름아운 옥(유)에 보배(진)자를 씁니다. 아름다운 아이로 자라라고 부모님께서 지어주신 이름입니다.
+            <br><br>자신에 대해 소개하는 것이 매우 어색한데요, 아직 자신에 대해 탐구하는 과정중에 있습니다. 그럼에도 간단히 저의 소개를 하자면
+            <br><br><br><br>저는 하고싶은게 정말 많은 사람입니다. 그만큼 때로는 변덕도 심합니다. 그러나 반대로 다재다능한 면이 있다고 할 수 있습니다.
+            <br><br>솔직한 면이 두드러집니다. 자기주장도 꽤 강한 편입니다. 이런 성격을 보완하기 위해 어떤 집단에서 최대한 열심히 하려고 노력하며
+            <br><br>상위권을 유지하려고 노력합니다. 자신의 주장으로 남들을 설득하려면 실력은 기본적으로 갖춰야 한다는 것을 잘 알기 때문입니다.</p></div>
+          <p>/</p>
+        </div>
+        <div class="card">
+          <h2>My Color Is</h2>
+          <div class="fakeimg3"></div>
+          <h5>Date, Nov 27, 2000, #f9304c</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; EugeneKim
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html><!--22061021_김유진-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      a:link{
+        color: #ffff;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #ffff;
+        opacity: 50%;
+      }
+      .topnav{
+        overflow: hidden;
+        font-size: 17px;
+      }
+      body{
+        font-family: AppleSDGothicNeo;
+        padding: 15px;
+
+        background-image: url('./img/bgf.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .leftcolumn{
+        float: left;
+        width: 40%;
+        color: #ffff;
+      }
+      .rightcolumn{
+        float: left;
+        width: 60%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+      .rightcolumn{
+        float: left;
+        width: 40%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+        color: #ffff;
+      }
+      .card{
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .footer{
+        padding: 20px;
+        margin-top: 80px;
+        color: #ffff;
+        font-size: 17px;
+      }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <audio src='./img/Loveholic.mp3'autoplay loop></audio>
+    <div class="topnav">
+      <a href="about.html">About</a>
+      <a href="planning.html">Planning</a>
+      <a href="design.html">Design</a>
+      <a href="programming.html">Programming/3D</a>
+      <a href="#" style="float:right">********</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <div class="fakeimg1" style="height:250px;"></div>
+          <h5>Date, Nov 27, 2000</h5>
+          <p>Welcome to eugene world. Mysterious, curious</p>
+        </div>
+
+        <div class="card">
+          <h2>**0107**225*5418</h2>
+          <h5>Date, Nov 27, 2000</h5>
+          <div class="fakeimg1" style="height:100px;"></div>
+          <p>Contect</p>
+          <p>Email eugenewc@naver.com</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      Copyright &copy; EugeneKim
+    </div>
+  </body>
+</html>
